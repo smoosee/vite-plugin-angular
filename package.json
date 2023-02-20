@@ -1,6 +1,6 @@
 {
   "name": "@smoosee/vite-plugin-angular",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A minimal plugin to support Angular applications building with Vite",
   "license": "MIT",
   "keywords": [
