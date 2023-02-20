@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-angular",
+  "name": "@smoosee/vite-plugin-angular",
   "version": "1.0.0",
   "description": "A minimal plugin to support Angular applications building with Vite",
   "license": "MIT",
@@ -12,11 +12,11 @@
     "name": "Mostafa Sherif",
     "email": "mosherif87@gmail.com"
   },
-  "homepage": "https://github.com/sheriffMoose/vite-plugin-angular#readme",
-  "funding": "https://github.com/sheriffMoose/vite-plugin-angular?sponsor=1",
+  "homepage": "https://github.com/smoosee/vite-plugin-angular#readme",
+  "funding": "https://github.com/smoosee/vite-plugin-angular?sponsor=1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sheriffMoose/vite-plugin-angular.git"
+    "url": "https://github.com/smoosee/vite-plugin-angular.git"
   },
   "publishConfig": {
     "access": "public",
@@ -62,8 +62,5 @@
     "vite-svg-loader": "^4.0.0",
     "vite-tsconfig-paths": "^4.0.5",
     "xregexp": "^5.1.1"
-  },
-  "resolutions": {
-    "@smoosee/sass-tools": "portal:/C:/develop/repo/sass-tools"
   }
 }
