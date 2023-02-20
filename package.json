@@ -34,7 +34,8 @@
     "*.md",
     "LICENSE",
     "*.js",
-    "*.d.ts"
+    "*.d.ts",
+    "index.html"
   ],
   "scripts": {
     "*************** BUILD ***************": "",
