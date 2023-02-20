@@ -1,3 +1,15 @@
+# v1.0.4 (Mon Feb 20 2023)
+
+#### ⚠️ Pushed to `master`
+
+- downgrade chalk version ([@sheriffMoose](https://github.com/sheriffMoose))
+
+#### Authors: 1
+
+- Mostafa Sherif ([@sheriffMoose](https://github.com/sheriffMoose))
+
+---
+
 # v1.0.3 (Mon Feb 20 2023)
 
 #### ⚠️ Pushed to `master`
