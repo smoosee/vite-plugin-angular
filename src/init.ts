@@ -5,7 +5,7 @@ import { AngularProject, BuildOptions, PluginConfig, ServeOptions } from './type
 
 const defaultConfig: PluginConfig = {
     selectors: {
-        jsonPath: './angular.json',
+        jsonPath: 'angular.json',
         logLevel: 1,
         optimizeDeps: [
             //
@@ -41,7 +41,7 @@ export const initalizePlugin = (config: PluginConfig) => {
 };
 
 export const getAngularProject = ({ selectors: { jsonPath, selectedProject }, project }: PluginConfig): AngularProject => {
-    const configFile = resolve(process.cwd(), jsonPath || './angular.json');
+    const configFile = resolve(process.cwd(), jsonPath);
     const angularJson: AngularSchema = require(configFile);
     const projects = angularJson.projects;
 

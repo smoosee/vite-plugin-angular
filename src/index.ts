@@ -15,9 +15,9 @@ import stylesPlugin from './plugins/styles';
 
 import presets from './plugins/presets';
 
-export const VitePluginAngular = (config?: PluginConfig): Plugin[] => {
+export const VitePluginAngular = (config?: PluginConfig = {}): Plugin[] => {
     initalizePlugin(config);
- 
+
 
     return [
         ...presets,
