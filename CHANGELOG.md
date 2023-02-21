@@ -1,3 +1,16 @@
+# v1.0.5 (Tue Feb 21 2023)
+
+#### ⚠️ Pushed to `master`
+
+- update injection regex ([@sheriffMoose](https://github.com/sheriffMoose))
+- cleanup config ([@sheriffMoose](https://github.com/sheriffMoose))
+
+#### Authors: 1
+
+- Mostafa Sherif ([@sheriffMoose](https://github.com/sheriffMoose))
+
+---
+
 # v1.0.4 (Mon Feb 20 2023)
 
 #### ⚠️ Pushed to `master`
