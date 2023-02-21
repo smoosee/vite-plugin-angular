@@ -49,9 +49,11 @@ export const analyzeConstructor = code => {
         const depsStart = code.indexOf('(', start);
         const depsEnd = code.indexOf('{', start);
         _deps = code
+            .replace(/[\r|\t|\n]/g, ' ')
             .substring(depsStart, depsEnd)
             .trim()
             .replace(/^\((.*)\)$/, '$1')
+            .trim()
             .split(/\,\s*/g)
             .filter(Boolean);
 
